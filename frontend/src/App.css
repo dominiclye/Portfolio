@@ -5,3 +5,14 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #0B101B;
+  padding: 1rem;
+}
+
+div.page-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100vw;
+}

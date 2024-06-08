@@ -3,19 +3,19 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <div>
+    <>
         <nav>
             <ul className="navbar-elements">
-                <li className='home'><a href="#">Home</a></li>
+                <li className='home'><a href="#" className='navlink'>Home</a></li>
                 <li className="centre-elements">
-                    <a href="#">Projects</a>
-                    <a href="#">About Me</a>
-                    <a href="#">Skills</a>
+                    <a href="#" className='navlink'>Projects</a>
+                    <a href="#" className='navlink'>About Me</a>
+                    <a href="#" className='navlink'>Skills</a>
                 </li>
-                <li className="contace"><a href="#">Contact</a></li>
+                <li className="contace"><a href="#" className='navlink'>Contact</a></li>
             </ul>
         </nav>
-    </div>
+    </>
   )
 }
 

@@ -4,9 +4,47 @@
     box-sizing: border-box;
 }
 
-.bg-grid {
-    margin: 2rem;
-    padding: 2rem;
-    border: 1px solid black;
-    border-radius: 10px;
+
+div.hero {
+    display: flex;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.portrait {
+    display: inline-block;
+    position: relative;  border-radius: 10px;
+    box-shadow: 0 0 10px #174290;
+    z-index: 1;
+}
+
+.portrait-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+.caption {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-style: italic;
+    position: relative;
+    bottom: 2rem;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(0);
+}
+
+.portrait-container:hover .caption{
+    transform: translateY(2rem);
+}
+
+div.text-container {
+    padding-left: 2rem;
+    color: white;
+    
+}
+
+.hero-name {
+    color: #96B1E3;
 }
