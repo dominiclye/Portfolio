@@ -5,10 +5,18 @@
 }
 
 
+.bg-grid{
+    min-height: 100vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 div.hero {
     display: flex;
     margin-top: 5rem;
-    width: 100%;
+    padding: 2rem;
 }
 
 .portrait {
@@ -21,7 +29,7 @@ div.hero {
 .portrait-container {
     display: flex;
     flex-direction: column;
-    max-width: 200px;
+    max-width: 300px;
 }
 
 .caption {
@@ -47,4 +55,52 @@ div.text-container {
 
 .hero-name {
     color: #96B1E3;
+}
+
+.hero-title {
+    font-size: 4rem;
+}
+
+.hero-text {
+    font-size: 1.5rem;
+}
+
+.hero-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.hero-link {
+    width: 50px;
+    color: #ffffff;
+}
+
+.link-wrapper {
+    margin: 1rem;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.link-wrapper::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #2C71F1;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+    transform-origin: bottom right;
+}
+
+.link-wrapper:hover::after {
+    transform: scaleX(1.1);
+    transform-origin: bottom left;
+}
+
+.link-wrapper:hover {
+    transform: scale(1.1);
 }
