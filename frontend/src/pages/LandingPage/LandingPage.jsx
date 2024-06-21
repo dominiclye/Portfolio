@@ -10,6 +10,7 @@ import linkedinIcon from '../../assets/linkedin.svg'
 
 const LandingPage = () => {
   return (
+    <>
     <div className="bg-grid">
         <Navbar />
         <div className="hero">
@@ -20,9 +21,7 @@ const LandingPage = () => {
 
                 <div className="text-container">
                     <h1 className="hero-title">Hello, I'm <span className='hero-name'>Dominic</span></h1>
-                    <p className="hero-text">A first-year student at The University of Melbourne, completing a Bachelor of Science with hopes of majoring in Data Science</p>
-
-
+                    <p className="hero-text">A first-year student at The University of Melbourne, completing a Bachelor of Science majoring in Data Science</p>
                 </div>
 
         </div>
@@ -31,8 +30,20 @@ const LandingPage = () => {
                         <a href="https://github.com/dominiclye" target="_blank" rel="noreferrer" className="link-wrapper"><img src={instagramIcon} alt="#" className="hero-link" /></a>
                         <a href="https://github.com/dominiclye" target="_blank" rel="noreferrer" className="link-wrapper"><img src={linkedinIcon} alt="#" className="hero-link" /></a>
         </div>
+        <p className="cttc">Don't feel like exploring? <a href="#" className="resume">Download Resume</a></p>
     </div>
-
+    <div className="skills-bg">
+      <div className="skills-content">
+        <ul className="tech-stack">
+          <li className="tech-icons">Golang</li>
+          <li className="tech-icons">Python</li>
+          <li className="tech-icons">Javascript</li>
+          <li className="tech-icons">SQL</li>
+          <li className="tech-icons">C</li>
+        </ul>
+      </div>
+    </div>
+    </>
   )
 }
 

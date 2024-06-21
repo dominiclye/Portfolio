@@ -14,7 +14,7 @@ nav {
     background-color: #131722;
     border-radius: 10px;
     box-shadow: 0 0 5px #174290;
-    max-width: 100%;
+    width: 50%;
 }
 
 .navbar-elements {

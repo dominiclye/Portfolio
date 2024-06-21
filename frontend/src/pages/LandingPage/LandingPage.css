@@ -6,11 +6,12 @@
 
 
 .bg-grid{
-    min-height: 100vh;
     padding: 1rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    height: 100vh;
 }
 
 div.hero {
@@ -50,8 +51,10 @@ div.hero {
 div.text-container {
     padding-left: 2rem;
     color: white;
-    
+
 }
+
+
 
 .hero-name {
     color: #96B1E3;
@@ -68,7 +71,6 @@ div.text-container {
 .hero-links {
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
 }
 
 .hero-link {
@@ -104,3 +106,45 @@ div.text-container {
 .link-wrapper:hover {
     transform: scale(1.1);
 }
+
+
+p.cttc {
+    color: white;
+    font-style: italic;
+}
+
+a.resume {
+    text-decoration: none;
+    color: #2C71F1  ;
+}
+
+
+
+
+.skills-bg {
+    display: flex;
+    background-color: rgb(19,23,34);
+    padding: 1rem;
+
+}
+
+h1.skills {
+    padding: 2rem;
+    font-size: 4rem;
+    color: white;
+    border-left: 2px solid #2C71F1;
+}
+
+ul.tech-stack {
+    display: flex;
+    list-style: none;
+    
+}
+
+li.tech-icons {
+    margin: 2rem;
+    padding: 1rem;
+    color: white;
+    background: #0B101B;
+}
+
