@@ -5,6 +5,11 @@ import heroPhoto from '../../assets/hero-photo.jpg'
 import githubIcon from '../../assets/github.svg'
 import instagramIcon from '../../assets/instagram.svg'
 import linkedinIcon from '../../assets/linkedin.svg'
+import goIcon from "../../assets/golang.png"
+import pyIcon from "../../assets/python.png"
+import jsIcon from "../../assets/js.png"
+import cIcon from "../../assets/letter-c.png"
+import sqlIcon from "../../assets/sql-server.png"
 
 
 
@@ -35,11 +40,11 @@ const LandingPage = () => {
     <div className="skills-bg">
       <div className="skills-content">
         <ul className="tech-stack">
-          <li className="tech-icons">Golang</li>
-          <li className="tech-icons">Python</li>
-          <li className="tech-icons">Javascript</li>
-          <li className="tech-icons">SQL</li>
-          <li className="tech-icons">C</li>
+          <li className="tech-icons"><img src={goIcon} alt="#" /></li>
+          <li className="tech-icons"><img src={pyIcon} alt="#" /></li>
+          <li className="tech-icons"><img src={jsIcon} alt="#" /></li>
+          <li className="tech-icons"><img src={sqlIcon} alt="#" /></li>
+          <li className="tech-icons"><img src={cIcon} alt="#" /></li>
         </ul>
       </div>
     </div>
